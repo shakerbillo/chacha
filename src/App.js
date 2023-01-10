@@ -3,12 +3,12 @@ import { useState, useEffect } from 'react';
 import SingleCard from './components/SingleCard';
 
 const playingCards = [
-	{ src: 'https://shakerbillo.github.io/img/ace.png', match: false },
-	{ src: 'https://shakerbillo.github.io/img/jack.png', match: false },
-	{ src: 'https://shakerbillo.github.io/img/diamond.png', match: false },
-	{ src: 'https://shakerbillo.github.io/img/king.png', match: false },
-	{ src: 'https://shakerbillo.github.io/img/heart.png', match: false },
-	{ src: 'https://shakerbillo.github.io/img/queen.png', match: false },
+	{ src: 'img/ace.png', match: false },
+	{ src: 'img/jack.png', match: false },
+	{ src: 'img/diamond.png', match: false },
+	{ src: 'img/king.png', match: false },
+	{ src: 'img/heart.png', match: false },
+	{ src: 'img/queen.png', match: false },
 ];
 
 function App() {

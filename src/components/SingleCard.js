@@ -15,7 +15,7 @@ const SingleCard = ({ card, handleChoice, flipped, disabled }) => {
 				<img className="front" src={card.src} alt="card front" />
 				<img
 					className="back"
-					src="https://shakerbillo.github.io/img/cover.png"
+					src="img/cover.png"
 					alt="cover"
 					onClick={handleClick}
 				/>
